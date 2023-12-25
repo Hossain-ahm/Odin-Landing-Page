@@ -1,0 +1,146 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    background-color: #C7E8F3;
+    padding: 8px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 24px;
+    gap: 50px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    flex-shrink: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 350px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.card{
+    width: 150px;
+    text-align: center;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #c7e8f3;
+}
+
+.button,.button2 {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.content1, .content2, .content3 {
+    display: flex;
+    padding: 32px;
+    display: flex;
+}
+
+.content1 {
+    background-color:#BF9ACA;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+.content2{
+    background-color:#8E4162;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.content3{
+    background-color:#41393E;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+}
+
+.content4{
+    background-color:#BF9ACA;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.footer {
+    display: flex;
+    background-color:#EDA2C0;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.qoute{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 50;
+    width: 1000px;
+    font-style: italic;
+    color: #BF9ACA;
+}
+
+.author{
+    font-size: 18px;
+    font-weight: 800;
+    width: 1000px;
+    padding-right: 30px;
+    text-align: right;
+    color: #EDA2C0;
+}
+
+.box{
+    color: white;
+    display: flex;
+    background-color: #3882F6;
+    padding: 40px;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.button2{
+    border-style: solid;
+    border-color: white;
+}
